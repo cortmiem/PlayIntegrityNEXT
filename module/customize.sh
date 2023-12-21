@@ -5,9 +5,7 @@ fi
 
 # Check custom pif.json
 if [ -e /data/adb/pif.json ]; then
-    ui_print "!!! WARNING, You are using a custom pif.json. Module will use it."
-	ui_print "!!! If you want to use recommended one, remove this file."
-	ui_print "!!! To remove it, execute as root: rm -f /data/adb/pif.json"
+    rm -f "/data/adb/pif.json"
 fi
 
 # SafetyNet-Fix module is obsolete and it's incompatible with PIF.

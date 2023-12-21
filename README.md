@@ -6,6 +6,17 @@ https://github.com/daboynb/PlayIntegrityNEXT/releases/tag/Release
 # Why this fork?
 It downloads the fp from https://github.com/daboynb/autojson
 
+# Instructions
+
+1) Download the zip
+2) Download the apk
+3) Install the apk and grant root permissions
+4) Flash the zip and reboot
+
+When the FP will be banned, you will only need to open the app and then check for Play Integrity Attestation. The module will download the new PIF.json. 
+(Sometimes, you may need to check two times for Play Integrity if the new PIF.json was downloaded just now.)
+
+
 # Demonstration
 
 https://github.com/daboynb/PlayIntegrityNEXT/assets/106079917/2f5b8376-aa3e-4be1-91d7-5f003ac72499
