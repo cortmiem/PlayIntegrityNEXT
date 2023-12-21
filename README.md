@@ -14,8 +14,9 @@ It downloads the fp from https://github.com/daboynb/autojson
 4) Flash the zip and reboot
 
 When the FP will be banned, you will only need to open the app and then check for Play Integrity Attestation. The module will download the new PIF.json. 
-(Sometimes, you may need to check two times for Play Integrity if the new PIF.json was downloaded just now.)
 
+# ATTENTION
+Sometimes, you may need to double-check for Play Integrity Attestation if the new PIF.json was just downloaded.
 
 # Demonstration
 
