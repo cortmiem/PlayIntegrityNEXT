@@ -30,7 +30,7 @@ https://github.com/daboynb/PlayIntegrityNEXT/assets/106079917/2f5b8376-aa3e-4be1
 
     sleep 04 && if pgrep -f com.google.android.gms > /dev/null; then pkill -f com.google.android.gms; else echo "Process is not running."; fi && if pgrep -f com.google.android.gms.unstable > /dev/null; then pkill -f com.google.android.gms.unstable; else echo "Process is not running."; fi
 
-The apk wss made with tasker, this is the profile:
+The apk was made with tasker, this is the profile:
 
 https://github.com/daboynb/PlayIntegrityNEXT/blob/main/Gms.tsk.xml
 
