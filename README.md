@@ -1,5 +1,8 @@
 # Play integrity fix
 
+# Download from 
+https://github.com/daboynb/PlayIntegrityNEXT/releases/tag/Release
+
 # Why this fork?
 It downloads the fp from https://github.com/daboynb/autojson
 
