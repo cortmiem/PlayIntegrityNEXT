@@ -29,3 +29,11 @@ https://github.com/daboynb/PlayIntegrityNEXT/assets/106079917/2f5b8376-aa3e-4be1
     [ -e /data/adb/pif.json ] && (echo "rm"; rm /data/adb/pif.json) || echo "no"
 
     sleep 04 && if pgrep -f com.google.android.gms > /dev/null; then pkill -f com.google.android.gms; else echo "Process is not running."; fi && if pgrep -f com.google.android.gms.unstable > /dev/null; then pkill -f com.google.android.gms.unstable; else echo "Process is not running."; fi
+
+The apk wss made with taske, this is the profile:
+
+https://github.com/daboynb/PlayIntegrityNEXT/blob/main/Gms.tsk.xml
+
+https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm
+
+https://play.google.com/store/apps/details?id=net.dinglisch.android.appfactory
