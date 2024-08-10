@@ -1,6 +1,6 @@
 id=playintegrityfix
-name=Play Integrity NEXT
-version=v14.1
-versionCode=14100
-author=Chiteroman
-description=Forked by github.com/daboynb
+name=Play Integrity Fix
+version=v14.1.1
+versionCode=14101
+author=chiteroman
+description=Universal modular fix for Play Integrity (and SafetyNet) on devices running Android 8-15, forked by github.com/daboynb

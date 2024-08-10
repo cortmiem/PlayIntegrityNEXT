@@ -23,3 +23,4 @@ fi
 mv -f $MODPATH/bin/$ABI/curl $MODPATH
 rm -rf $MODPATH/bin
 set_perm $MODPATH/curl root root 777
+set_perm $MODPATH/pif.sh root root 777

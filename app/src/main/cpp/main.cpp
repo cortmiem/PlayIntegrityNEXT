@@ -235,8 +235,8 @@ static void companion(int fd) {
 
     FILE *json;
 
-    std::filesystem::remove(JSON_FILE);
-    system("/data/adb/modules/playintegrityfix/curl -o /data/adb/pif.json https://proxy.z46.icu/https://raw.githubusercontent.com/cortmiem/autojson/main/pif.json");
+    // std::filesystem::remove(JSON_FILE);
+    system("/data/adb/modules/playintegrityfix/pif.sh");
     json = fopen(JSON_FILE, "rb");
 
 
