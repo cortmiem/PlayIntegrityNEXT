@@ -9,7 +9,7 @@ log_date() {
 }
 
 echo "$(log_date) - Ready." > "$LOG_FILE"
-/data/adb/modules/playintegrityfix/curl --max-time 30 --retry 5 --retry-delay 5 -o "$TEMP_FILE" "$URL"
+/data/adb/modules/playintegrityfix/curl --noproxy '*' --max-time 30 --retry 5 --retry-delay 5 -o "$TEMP_FILE" "$URL"
 if [ -s "$TEMP_FILE" ]; then
     echo "$(log_date) - Downloaded file." >> "$LOG_FILE"
     if [ -f "$TARGET_FILE" ]; then
